@@ -1,0 +1,48 @@
+/* 將所有預設邊界歸零，同套用reset*/
+*{
+    margin: 0;
+}
+
+
+body{
+    background-color: #eee;
+}
+.wrap{
+    width: 768px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px; /*簡寫: 上 下 左 右 ，或是: 上 左(這個上下要一樣，左右要一樣)*/
+}
+h1{
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+/* .wrap p{
+    padding: 20px 0px;
+} */
+figure{
+    width: 100%;    /*相對於最外層.wrap => 770px*/
+    padding: 20px 0px;
+}
+figure img{
+    width: 100%;    /*相對於figure父元素770px*/
+}
+figcaption{
+    font-size: 13px;
+    color: #949494;
+    padding-top: 5px;
+}
+h3{
+    font-size: 18px;
+    padding: 20px 0px;
+}
+p{
+    padding-bottom: 20px;
+    line-height: 2;
+}
+.wrap a{
+    display: block;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
